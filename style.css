@@ -12,6 +12,10 @@ body {
     min-height: 100vh;
     position: relative;
     overflow-x: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 /* אפקט כוכבים ברקע */
@@ -305,3 +309,20 @@ body {
         background: linear-gradient(90deg, #ffd700, #ffed4e);
         border-radius: 2px;
     }
+.whatsapp-link {
+    color: #25D366; /* ירוק וואטסאפ */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 5px; /* רווח קטן בין האייקון למספר */
+}
+
+    .whatsapp-link:hover {
+        text-decoration: underline;
+    }
+
+.whatsapp-icon {
+    width: 16px;
+    height: 16px;
+}

@@ -55,3 +55,18 @@ document.addEventListener('DOMContentLoaded', function () {
     updateCounter();
     setInterval(updateCounter, 1000);
 });
+
+// לא מאפשר קליק ימני
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+// לא מאפשר זום עם Ctrl + גלגל עכבר
+document.addEventListener('wheel', function (e) {
+    if (e.ctrlKey) e.preventDefault();
+}, { passive: false });
+
+// לא מאפשר זום עם Ctrl + + או Ctrl + -
+document.addEventListener('keydown', function (e) {
+    if (e.ctrlKey && (e.key === '+' || e.key === '-' || e.key === '=')) {
+        e.preventDefault();
+    }
+});
