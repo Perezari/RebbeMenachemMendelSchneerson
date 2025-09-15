@@ -1,4 +1,4 @@
-# 🕯️ Rest in Peace (עד מתי?) - A Digital Tribute Counter
+# Rebbe Menachem Mendel Schneerson memorial page
 
 ![HTML](https://img.shields.io/badge/Language-HTML5-orange.svg)
 ![CSS](https://img.shields.io/badge/Language-CSS3-blue.svg)
